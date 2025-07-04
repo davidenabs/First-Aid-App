@@ -1,6 +1,14 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+<!-- Phone call permission -->
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.CALL_PRIVILEGED" />
+    
+    <!-- Internet permission for future updates -->
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
-        android:label="first_aid_app"
+        android:label="First Aid App"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity
